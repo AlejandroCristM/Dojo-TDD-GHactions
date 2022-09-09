@@ -1,0 +1,23 @@
+{
+  "name": "dojo-tdd",
+  "version": "1.0.0",
+  "description": "Dojo starting with testing js, unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --verbose --coverage"
+  },
+  "keywords": [
+    "tdd",
+    "test",
+    "js"
+  ],
+  "author": "AlejandroCristM",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
